@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{F7EB0AFB-B8EF-4868-9788-9B467204B3DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Menu", "Menu\Menu.csproj", "{F7EB0AFB-B8EF-4868-9788-9B467204B3DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculaDesconto", "CalculaDesconto\CalculaDesconto.csproj", "{E569D6BA-C93A-4A26-82BF-248E8961B498}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculaDesconto", "CalculaDesconto\CalculaDesconto.csproj", "{E569D6BA-C93A-4A26-82BF-248E8961B498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidaTriangulo", "ValidaTriangulo\ValidaTriangulo.csproj", "{4F6EDCA5-7CBD-46B1-8160-947062910056}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidaTriangulo", "ValidaTriangulo\ValidaTriangulo.csproj", "{4F6EDCA5-7CBD-46B1-8160-947062910056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrabalhoTest", "TrabalhoTest\TrabalhoTest.csproj", "{B6189FB5-5282-4F9F-8D44-274EEB60B275}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrabalhoTest", "TrabalhoTest\TrabalhoTest.csproj", "{B6189FB5-5282-4F9F-8D44-274EEB60B275}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
