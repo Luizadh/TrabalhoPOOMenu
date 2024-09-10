@@ -14,11 +14,29 @@ namespace TrabalhoTest
         public void TestarSeEhTriangulo()
         {
             //ação
-            bool resultado = CalculoTriangulo.EhTriangulo(3, 4, 5);
+            bool resultado = CalculoTriangulo.EhTriangulo(3, 4, 5);  //Valores válidos para o triângulo 
 
             //verificação
             Assert.IsTrue(resultado);
         }
+
+
+        [TestMethod]
+
+        public void TestarSeNaoEhTriangulo() //Valores inválidos para o triângulo 
+        {
+            // Cenário
+            double a = 1;
+            double b = 5;
+            double c = 3;
+
+            // Ação
+            bool resultado = CalculoTriangulo.EhTriangulo(a, b, c);
+
+            // Verificação
+            Assert.IsFalse(resultado);
+        }
+
 
         [TestMethod]
         public void TestarTipoTrianguloEquilatero()
