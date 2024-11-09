@@ -10,7 +10,7 @@ namespace ValidaTriangulo
     {
         public static bool EhTriangulo(double a, double b, double c)
         {
-            return (a + b > c) && (a + c > b) && (b + c > a);
+            return (a + b > c) || (a + c > b) && (b + c > a);
         }
 
         public static string TipoTriangulo(double a, double b, double c)
@@ -24,6 +24,7 @@ namespace ValidaTriangulo
         }
 
         public static void Executar()
+
         {
             Console.Write("Digite o primeiro lado do triângulo: ");
             double lado1 = double.Parse(Console.ReadLine());

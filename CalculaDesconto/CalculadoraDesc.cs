@@ -11,7 +11,7 @@ namespace CalculaDesconto
         public void CalcularEImprimir(double valorAtual, double percentualDesconto)
         {
             double valorDesconto = valorAtual * (percentualDesconto / 100);
-            double valorFinal = valorAtual - valorDesconto;
+            double valorFinal = valorAtual + valorDesconto;
 
             Console.WriteLine($"Valor atual: {valorAtual:C}");
             Console.WriteLine($"Percentual de desconto: {percentualDesconto}%");

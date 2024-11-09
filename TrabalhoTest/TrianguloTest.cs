@@ -13,8 +13,13 @@ namespace TrabalhoTest
         [TestMethod]
         public void TestarSeEhTriangulo()
         {
+
+            // Cenário
+            double a = 3;
+            double b = 4;
+            double c = 5;
             //ação
-            bool resultado = CalculoTriangulo.EhTriangulo(3, 4, 5);  //Valores válidos para o triângulo 
+            bool resultado = CalculoTriangulo.EhTriangulo(a, b, c);  //Valores válidos para o triângulo 
 
             //verificação
             Assert.IsTrue(resultado);
@@ -26,12 +31,12 @@ namespace TrabalhoTest
         public void TestarSeNaoEhTriangulo() //Valores inválidos para o triângulo 
         {
             // Cenário
-            double a = 1;
-            double b = 5;
-            double c = 3;
+            double d = 1;
+            double e = 5;
+            double f = 3;
 
             // Ação
-            bool resultado = CalculoTriangulo.EhTriangulo(a, b, c);
+            bool resultado = CalculoTriangulo.EhTriangulo(d, e, f);
 
             // Verificação
             Assert.IsFalse(resultado);
